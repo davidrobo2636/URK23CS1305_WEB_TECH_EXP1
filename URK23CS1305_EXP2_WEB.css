@@ -54,19 +54,19 @@ nav a {
 
 
 .bg1 {
-    background-image: url('/home/david/Documents/web tech exp1/download11.jpeg');
+    background-image: url('download11.jpeg');
     opacity: 1;
 }
 
 .bg2 {
-    background-image: url('/home/david/Documents/web tech exp1/download2.jpeg');
+    background-image: url('download2.jpeg');
 }
 
 .bg3 {
-    background-image: url('/home/david/Documents/web tech exp1/download3.jpeg');
+    background-image: url('download3.jpeg');
 }
 .bg4 {
-    background-image: url('/home/david/Documents/web tech exp1/download4.jpeg');
+    background-image: url('download4.jpeg');
 }
 .content {
 
