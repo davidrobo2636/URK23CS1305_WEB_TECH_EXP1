@@ -3,92 +3,134 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cybersecurity Scroll Website</title>
-  <link rel="stylesheet" href="URK23CS1305_EXP2_WEB.css" />
+  <title>Cybersecurity Basics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      background-color: white;
+      padding: 20px;
+      margin: 15px;
+      border-radius: 8px;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+    mark {
+      background-color: yellow;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <h1>Cybersecurity Basics</h1>
-    <p><span>Stay Safe in the Digital World</span></p>
-  </header>
+<!-- Header Section -->
+<header>
+  <h1>Cybersecurity Basics</h1>
+  <p><em>Protecting your digital world starts here.</em></p>
+</header>
 
-  <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="#intro">Introduction</a></li>
-      <li><a href="#threats">Threats</a></li>
-      <li><a href="#tips">Tips</a></li>
-      <li><a href="#resources">Resources</a></li>
-    </ul>
-  </nav>
+<!-- Navigation -->
+<nav>
+  <a href="#introduction">Introduction</a>
+  <a href="#topics">Topics</a>
+  <a href="#resources">Resources</a>
+</nav>
 
-  <!-- Background Layers -->
-  <div class="bg bg1"></div>
-  <div class="bg bg2"></div>
-  <div class="bg bg3"></div>
-  <div class="bg bg4"></div>
+<!-- Introduction Section -->
+<section id="introduction">
+  <h2>What is Cybersecurity?</h2>
+  <p>
+    <strong>Cybersecurity</strong> is the protection of <abbr title="Information Technology">IT</abbr> systems from digital threats.
+    It involves defending computers, servers, mobile devices, and networks from malicious attacks.
+  </p>
+  <blockquote cite="https://www.cisa.gov">
+    “Cybersecurity is the art of protecting networks, devices, and data from unauthorized access or criminal use and the practice of ensuring confidentiality, integrity, and availability of information.” — <cite>CISA</cite>
+  </blockquote>
+  <img src="download11.jpeg" alt="Cybersecurity Concept Image" />
+</section>
 
-  <!-- Sections -->
-  <section id="intro" class="content section1">
-    <h2>What is Cybersecurity?</h2>
-    <p>
-      Cybersecurity protects systems and networks from digital threats. It involves firewalls, encryption, authentication, and more.
-      For example, to block code in HTML, use entities like &lt;script&gt; to avoid execution.
-    </p>
-    <!-- Comment: This image shows cybersecurity lock -->
-    <img src="download12.jpeg" alt="Cybersecurity Lock" width="300" />
-  </section>
+<!-- Topics Section -->
+<section id="topics">
+  <h2>Key Cybersecurity Topics</h2>
+  <ul>
+    <li>Network Security</li>
+    <li>Application Security</li>
+    <li>Information Security</li>
+    <li>Disaster Recovery</li>
+    <li>Cloud Security</li>
+  </ul>
 
-  <section id="threats" class="content section2">
-    <h2>Common Threats</h2>
-    <table border="1">
-      <tr>
-        <th>Threat</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>Phishing</td>
-        <td>Fake emails to steal login details</td>
-      </tr>
-      <tr>
-        <td>Ransomware</td>
-        <td>Locks files and demands payment</td>
-      </tr>
-      <tr>
-        <td>Spyware</td>
-        <td>Steals information secretly</td>
-      </tr>
-    </table>
-  </section>
+  <h3>Cybersecurity Terms Table</h3>
+  <table>
+    <caption><strong>Important Terminology</strong></caption>
+    <tr>
+      <th>Term</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Firewall</td>
+      <td>A system designed to prevent unauthorized access to or from a private network.</td>
+    </tr>
+    <tr>
+      <td>Phishing</td>
+      <td>A method of trying to gather personal information using deceptive emails and websites.</td>
+    </tr>
+    <tr>
+      <td>Malware</td>
+      <td>Malicious software intended to harm or exploit any programmable device.</td>
+    </tr>
+  </table>
 
-  <section id="tips" class="content section3">
-    <h2>How to Stay Safe?</h2>
-    <ul>
-      <li>Use strong passwords</li>
-      <li>Enable 2FA</li>
-      <li>Keep software updated</li>
-      <li>Avoid unknown links</li>
-    </ul>
-    <p>Cybersecurity is everyone's responsibility. <span>Think before you click!</span></p>
-  </section>
+  <p>This is <mark>very important</mark> for <code>every user</code> who accesses the internet.</p>
+</section>
 
-  <section id="resources" class="content section4">
-    <h2>Useful Resources</h2>
-    <p>Check these links:</p>
-    <ol>
-      <li><a href="https://www.ncsai.in/" target="_blank">Cybersecurity.gov</a></li>
-      <li><a href="https://www.dsci.in/content/cyber-security-awareness-month-2024" target="_blank">Cyber Aware (UK)</a></li>
-    </ol>
-    <a href="#intro">🔝 Back to Top</a>
-  </section>
+<!-- Resources Section -->
+<section id="resources">
+  <h2>Useful Resources</h2>
+  <p>Click any of the following links:</p>
+  <ul>
+    <li><a href="https://www.cybersecurity.gov" target="_blank">Cybersecurity.gov</a></li>
+    <li><a href="https://www.cisa.gov" target="_blank">CISA (Cybersecurity and Infrastructure Security Agency)</a></li>
+    <li><a href="https://www.kaspersky.com/resource-center" target="_blank">Kaspersky Resource Center</a></li>
+  </ul>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Cybersecurity Awareness. Designed by David Oliver URK23CS1305</p>
-  </footer>
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Cybersecurity Awareness. Designed by <span style="color: #00ffff;">David</span></p>
+</footer>
 
-  <script src="URK23CS1305_EXP2_WEB.js"></script>
 </body>
 </html>
